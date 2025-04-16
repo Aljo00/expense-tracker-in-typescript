@@ -113,10 +113,6 @@
     "outDir": "./dist", // Compiled JS files will go here
     "rootDir": "./src" // Source TS files will be in this folder
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*"], // Include all TypeScript files from 'src'
+  "exclude": ["node_modules"] // Skip everything in 'node_modules'
 }
